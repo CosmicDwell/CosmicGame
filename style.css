@@ -5,9 +5,12 @@ body, html {
     justify-content: center;
     align-items: center;
     background: black;
-    overflow: hidden; /* Hide scrollbars */
   }
   
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
   #gameContainer {
     width: 800px;
     height: 600px;
